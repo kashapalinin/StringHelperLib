@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'StringHelperLib'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A simple string helper library for iOS'
   
   s.description      = <<-DESC
@@ -9,7 +9,7 @@ word counting, palindrome checking and more.
                        DESC
 
   s.homepage         = 'https://github.com/kashapalinin/StringHelperLib'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT'}
   s.author           = { 'kashapalinin' => 'pkalinin236@gmail.com' }
   s.source           = { :git => 'https://github.com/kashapalinin/StringHelperLib.git', :tag => s.version.to_s }
 
