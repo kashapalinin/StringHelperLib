@@ -24,4 +24,6 @@ public class StringHelper {
     public static func containsOnlyLetters(_ string: String) -> Bool {
         return string.allSatisfy { $0.isLetter }
     }
+    
+    public init() {}
 }
